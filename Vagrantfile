@@ -1,5 +1,6 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
+chris
 
 def fail_with_message(msg)
   fail Vagrant::Errors::VagrantError.new, msg
