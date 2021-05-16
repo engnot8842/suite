@@ -47,7 +47,8 @@ with app.app_context():
             name="Lenny Euler (Root)",		
             active=True,		
             confirmed=True,		
-            sudo=True,		
+            sudo=True,
+            sudo=True,
         )		
         db.session.add(root)		
 
